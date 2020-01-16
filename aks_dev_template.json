@@ -28,14 +28,14 @@
             }
         },
         "aksSubnetAddressPrefix": {
-            "defaultValue": "172.205.0.0/17",
+            "defaultValue": "172.205.0.0/22",
             "type": "string",
             "metadata": {
                 "description": "Containers DNS server IP address."
             }
         },
         "applicationGatewaySubnetAddressPrefix": {
-            "defaultValue": "172.205.0.0/22",
+            "defaultValue": "172.205.4.0/22",
             "type": "string",
             "metadata": {
                 "description": "Containers DNS server IP address."
@@ -288,21 +288,21 @@
             }
         },
         "aksServiceCIDR": {
-            "defaultValue": "172.205.128.0/17",
+            "defaultValue": "172.205.8.0/22",
             "type": "string",
             "metadata": {
                 "description": "A CIDR notation IP range from which to assign service cluster IPs."
             }
         },
         "aksDnsServiceIP": {
-            "defaultValue": "172.205.128.4",
+            "defaultValue": "172.205.8.4",
             "type": "string",
             "metadata": {
                 "description": "Containers DNS server IP address."
             }
         },
         "aksDockerBridgeCIDR": {
-            "defaultValue": "172.207.0.1/16",
+            "defaultValue": "172.207.0.0/16",
             "type": "string",
             "metadata": {
                 "description": "A CIDR notation IP for Docker bridge."
