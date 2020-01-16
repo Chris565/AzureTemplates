@@ -302,7 +302,7 @@
             }
         },
         "aksDockerBridgeCIDR": {
-            "defaultValue": "172.207.0.0/16",
+            "defaultValue": "172.207.0.1/16",
             "type": "string",
             "metadata": {
                 "description": "A CIDR notation IP for Docker bridge."
